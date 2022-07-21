@@ -91,5 +91,23 @@
     "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4398987.jpg&w=596&h=399.32000000000005&c=sc&poi=face&q=85",
     "duration": 30,
     "creator": "Chef Jennifer"
+  },
+  {
+    "title": "Salmorejo",
+    "level": "Amateur Chef",
+    "ingredients": [
+      "1kg of tomatoes",
+      "2 garlic clove",
+      "250g breadcrumbs",
+      "150ml of virgin olive ",
+      "vinnegar to taste",
+      "salt to taste"
+    ],
+    "cuisine":"Andalusian",
+    "dishType": "soup",
+    "image":
+      "https://u6i6f5j9.rocketcdn.me/wp-content/uploads/2010/04/salmorejo-cordobes-1.jpg",
+    "duration": 20,
+    "creator": "Pablo de Andres"
   }
 ]
