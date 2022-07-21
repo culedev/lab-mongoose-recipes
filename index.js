@@ -20,6 +20,18 @@ mongoose
   })
   .then((response) => {
     console.log("Recipes added")
+    return Recipe.findOneAndUpdate({title: "Rigatoni alla Genovese"}, {duration: 100}, {new: true})
+  })
+  .then(response => {
+    console.log("Duration changed", response)
+    return Recipe.findOneAndDelete({title: "Carrot Cake"})
+  })
+  .then(response => {
+    console.log("Carrot Cake, we miss you...")
+    return mongoose.connection.close()
+  })
+  .then(response => {
+    console.log("DB connection lost")
   })
   .catch((error) => {
     console.error("Error connecting to the database", error);
